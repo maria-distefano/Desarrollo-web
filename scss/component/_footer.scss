@@ -1,0 +1,102 @@
+footer {
+    grid-area: footer;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 80px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    .container-footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+  
+      .redes {
+        margin-right: 58px;
+  
+        .social {
+          width: 40%;
+        }
+      }
+  
+      h2 {
+        position: relative;
+        color: #fbf8f8;
+        font-weight: 500;
+        margin-bottom: 15px;
+  
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          width: 50px;
+          height: 2px;
+          background: #a4318f;
+        }
+      }
+    }
+  }
+  
+  .sci {
+    margin-top: 20px;
+    display: flex;
+  
+    li {
+      list-style: none;
+  
+      a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+        border-radius: 4px;
+  
+        &:hover {
+          background: #a4318f;
+        }
+  
+        .fab {
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+  .SiteMap {
+    position: relative;
+    width: 25%;
+  
+    ul li {
+      list-style: none;
+  
+      a {
+        color: #999;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: inline-block;
+  
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  
+  .copy {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+  }

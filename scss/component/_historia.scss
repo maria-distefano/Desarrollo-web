@@ -23,7 +23,7 @@ body {
   background-color: rgb(184, 21, 151);
   display: grid;
   gap: 10px;
-  grid-template: "header"  100px "navbar"  50px "main"    auto "footer"  100px;
+  grid-template: "header"  100px "navbar"  50px "main"    auto "footer"  auto;
 }
 
 .header {
@@ -112,14 +112,7 @@ body {
   }
 }
 
-.footer {
-  grid-area: footer;
-  text-align: center;
-  padding: 30px;
-  background-color: rgb(9, 1, 1);
-  color: rgb(241, 233, 233);
-  text-decoration: none;
-}
+
 
 /*------------------responsive----------------------------*/
 

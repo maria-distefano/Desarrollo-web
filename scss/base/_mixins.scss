@@ -1,0 +1,12 @@
+/* mixin*/
+
+@mixin prueba($relleno,$displey,$alineacion) {
+    padding: $relleno;
+    display: $displey;
+    justify-content: $alineacion;
+
+}
+
+.trucoParaDespues{
+    @include prueba(20px,flex ,center )
+}
