@@ -116,10 +116,10 @@ body {
 
 /*------------------responsive----------------------------*/
 
-@media (max-width: 900px) {
+@media (max-width: 720px) {
   .grid-container {
     background-color: rgb(184, 21, 151);
-    grid-template: "header  header header"  100px "navbar  navbar navbar" 50px "main    main   main" auto "footer  footer footer"  100px / 200px    auto   200px;
+    grid-template: "header  header header"  100px "navbar  navbar navbar" 50px "main    main   main" auto "footer  footer footer"  200px / 200px    auto   200px;
   }
 
   .navbar {
